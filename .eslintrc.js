@@ -24,5 +24,14 @@ module.exports = {
     'no-constructor-return': 2, // Disallow returning value from constructor
     'no-debugger': 2, // Disallow the use of debugger
     'no-dupe-args': 2, // Disallow duplicate arguments in function definitions
+    'no-dupe-class-members': 2, // Disallow duplicate class members. It’s also safe to disable this rule when using TypeScript
+    'no-dupe-else-if': 2, // Disallow duplicate conditions in if-else-if chains
+    'no-dupe-keys': 2, // Disallow duplicate keys in object literals
+    'no-duplicate-case': 2, // Disallow duplicate case labels
+    'no-duplicate-imports': [2, { includeExports: true }], // Disallow duplicate module imports
+    'no-empty-pattern': 2, // Disallow empty destructuring patterns
+    'no-ex-assign': 2, // Disallow reassigning exceptions in catch clauses
+    'no-fallthrough': 2, // Disallow fallthrough of case statements
+    'no-func-assign': 2, // Disallow reassigning function declarations
   }
 }
